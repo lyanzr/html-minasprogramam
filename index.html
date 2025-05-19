@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Nazura</title>
+  <title>Beatriz Moraes</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,92 +14,96 @@
 
 <body>
   <header id="menu">
-    <h1 class="logo">Nazura</h1>
+    <h1 class="logo">Beatriz Moraes</h1>
     <nav class="navegacao">
       <ul>
-        <li>Sobre Mim</li>
-        <li>Formação</li>
-        <li>Experiências</li>
-        <li>Contato</li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="sobre">
 
-      <img class="sobre-imagem" src="Imagens/Nazura Foto.png" alt="Foto da Beatriz sorrindo" />
+      <img class="sobre-imagem" src="imagens/imgbia.jpeg" alt="Foto da Beatriz sorrindo" />
 
-      <h2 class="sobre-nome">Nazura</h2>
-      <h3 class="sobre-titulo">Artista Visual</h3>
+      <h2 class="sobre-nome">Beatriz Moraes</h2>
+      <h3 class="sobre-titulo">Desenvolvedora Web</h3>
 
       <p class="sobre-descricao">
-        Sou <strong>artista visual</strong> e design gráfico. <br />
-        Também sou apaixonada por <em>educação</em> e animes!
+        Sou <strong>desenvolvedora front-end</strong> e professora,
+        no Minas Programam <br />
+        Também sou apaixonada por <em>educação</em> e entusiata em IA e amo gatinhos
       </p>
     </section>
     <section id="formacao">
-      <h2 class="formacao-titulo">Cursos
-      </h2>
+      <h2 class="formacao-titulo">Formação</h2>
 
       <div class="formacao-lista">
-        <h3>Design Gráfico</h3>
-        <a href="https://minasprogramam.com" target="_blank">Etec Tiquatira</a>
+        <h3>Desenvolvimento Front End</h3>
+        <a href="https://minasprogramam.com" target="_blank">Instituto Minas Programam</a>
         <p>Curso introdutório de desenvolvimento Front End, ensinando conceitos básicos de HTML, CSS e Javascript</p>
 
-        <h3>Licenciatura Artes Visuais</h3>
-        <a href="https://minasprogramam.com" target="_blank">Universidade Cruzeiro do Sul</a>
-        <p>Licenciatura em Pedagogia, na Universidade Paulista</p>
-
-        <h3>Licenciatura Artes Visuais</h3>
-        <a href="https://minasprogramam.com" target="_blank">Universidade Cruzeiro do Sul</a>
+        <h3>Licenciatura em Pedagogia</h3>
+        <a href="https://minasprogramam.com" target="_blank">Universidade Paulista</a>
         <p>Licenciatura em Pedagogia, na Universidade Paulista</p>
       </div>
 
     </section>
-
     <section id="experiencias">
-        <h2 class="experiencia-titulo">Experiência</h2>
-  
-        <div class="experiencia-lista">
-          <h3>Estagiária Design Gráfico</h3>
-          <a href="" target="_blank">IDEC</a>
-          <p>Assistente no desenvolvimento de peças gráficas</p>
-  
-          <h3>Licenciatura em Pedagogia</h3>
-          <a href="https://minasprogramam.com" target="_blank">Universidade Paulista</a>
-          <p>Licenciatura em Pedagogia, na Universidade Paulista</p>
-        </div>
-  
-      </section>
+      <h2 class="experiencia-titulo">Experiências</h2>
 
+      <div class="experiencia-lista">
+        <h3>Desenvolvedora Front End</h3>
+        <a href="" target="_blank">Zydon</a>
+        <p>Desenvolvimento Front End de plataformas B2B</p>
 
+        <h3>Professora de Desenvolvimento Front End</h3>
+        <a href="https://minasprogramam.com" target="_blank">Minas Programam</a>
+        <p>Ensino conceitos introdutórios de desenvolvimento front-end</p>
+      </div>
+    </section>
     <section id="contato">
-    <h2 class="contato titulo"> Entre em Contato Comigo</h2>
-    <form class="contato-formulario">
+      <h2 class="contato-titulo">Entre em contato comigo</h2>
+      <form action="https://formspree.io/f/mrbqrnvj" method="POST" class="contato-formulario">
         <div class="contato-grupoinput">
-            <div class="contato-input">
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
-            </div>
+          <div class="contato-input">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
+          </div>
 
-            <div class="contato-input">
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" /> 
-            </div>
+          <div class="contato-input">
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" />
+          </div>
         </div>
 
         <div class="contato-input">
-            <label for="mensagem">Mensagem: </label>
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
+          <label for="mensagem">Mensagem: </label>
+          <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+        <button class="btn-enviar" type="submit">Enviar</button>
       </form>
     </section>
   </main>
-  <footer>
-    <a href="https://www.linkedin.com/in/beatriz-m-silva/" target="_blank">Linkedin</a>
+  <footer class="rodape">
+    <div class="rodape-contatos">
+      <p><img src="imagens/instagram-logo.png" alt="Logo do Instagram" /> <a
+          href="https://instagram.com/beadmoraes">@beadmoraes</a> </p>
+      <p><img src="imagens/github-logo.png" alt="Logo do Github" /> <a
+          href="https://github.com/beamoraess">beamoraess</a> </p>
+      <p><img src="imagens/linkedin-logo.png" alt="Logo do Linkedin" /> <a
+          href="https://linkedin/in/beatriz-m-silva">Beatriz Moraes</a> </p>
+    </div>
+
+    <div class="rodape-logo">
+      <a href="https://minasprogramam.com/"><img class="logo-minas" src="imagens/minasprogram-logo.png"
+          alt="Logo do Minas Programam" /></a>
+    </div>
   </footer>
 </body>
 
-</html>
+</html>git re
